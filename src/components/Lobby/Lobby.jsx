@@ -7,6 +7,7 @@ import linkedinLogo from "./Image/linkedin_black_icon.png"
 import whtasappLogo from "./Image/whatsapp_black_icon.png"
 import GitIcon from "./Image/github_git_icon.png"
 import './Lobby.scss'
+import MenuBar from "../MenuBar/MenuBar"
 const Lobby = () => {
     return (
         <>
@@ -26,8 +27,9 @@ const Lobby = () => {
             <div className="section-information">
                 <h1 className="about-title">About me</h1>
                  <br />
-                 <p className="about-me"> Hello! I’m Caio Tomaskok.
-                    Back-end & Frond-end developer from UK, London. I have rich experience in wordpress, also I am good at Magento. I love to talk with you about our unique.</p>
+                 <p className="about-me"> Olá! Eu sou o Caio, Front-end Developer. Eu moro em Guarulhos-São Paulo, estou em busca da minha primeira oportunidade para atuar na area. Atualmente sou estudante de React.Js, Typescript e nest.js . Gosto muito do que faço. Um prazer te-lo aqui! </p>
+                    <MenuBar />
+                    <br></br>
             </div>
         </div>
         <Back />
