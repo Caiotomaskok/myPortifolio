@@ -1,5 +1,5 @@
 :root{
-    --color-font-primary: #b7c310;
+    --color-font-primary:  #ffde59;
 }
 
 .container{
@@ -97,9 +97,15 @@
 }
 
 .section-information {
-    width: 50%;
+    width: 45%;
     padding: 30px;
     font-size: 15px;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
     .about-title{
         font-size: 30px;
         height: 10px;

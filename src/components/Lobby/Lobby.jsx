@@ -25,9 +25,9 @@ const Lobby = () => {
                 </ul>
             </div>
             <div className="section-information">
-                <h1 className="about-title">About me</h1>
+                <h1 className="about-title">BEM VINDO!</h1>
                  <br />
-                 <p className="about-me"> Olá! Eu sou o Caio, Front-end Developer. Eu moro em Guarulhos-São Paulo, estou em busca da minha primeira oportunidade para atuar na area. Atualmente sou estudante de React.Js, Typescript e nest.js . Gosto muito do que faço. Um prazer te-lo aqui! </p>
+                 <p className="about-me"> É um prazer te-lô aqui!  Eu sou o Caio, Front-end Developer. Eu moro em Guarulhos-São Paulo, estou em busca da minha primeira oportunidade para atuar na area. Atualmente sou estudante de React.Js, Typescript e nest.js . Gosto muito do que faço. É um busco crescer cada mais como pessoa e como profissional escolhi esta area pois foi onde me encontrei, e por influencia do meu pai que atua na area recebi uma direção para seguir e eu amei isso. </p>
                     <MenuBar />
                     <br></br>
             </div>
