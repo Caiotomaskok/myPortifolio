@@ -1,4 +1,4 @@
-
+import HomePage from "../pages/HomePage"
 import Back from "../background/Back"
 
 import profile from './Image/foto-perfil.jpg'
@@ -8,9 +8,11 @@ import whtasappLogo from "./Image/whatsapp_black_icon.png"
 import GitIcon from "./Image/github_git_icon.png"
 import './Lobby.scss'
 import MenuBar from "../MenuBar/MenuBar"
+
 const Lobby = () => {
     return (
         <>
+        <Back />
         <div className="container">
             <div className="section">
                 <img src={profile} alt=" foto de perfil" className="profile" />
@@ -20,19 +22,17 @@ const Lobby = () => {
                 <ul>
                     <li><a href="https://www.linkedin.com/in/tomaskok/"><img src={linkedinLogo} alt="Logo Linkedin" /></a></li>
                     <li><a href="https://github.com/Caiotomaskok?tab=repositories"><img className="icon-git" src={GitIcon} alt="Icon GitHub" /></a></li>
-                    <li><a href="#"><img src={whtasappLogo} alt="Icon Whatsapp" /></a></li>
+                    <li><a href="5511993862934"><img src={whtasappLogo} alt="Icon Whatsapp" /></a></li>
 
                 </ul>
             </div>
             <div className="section-information">
-                <h1 className="about-title">BEM VINDO!</h1>
-                 <br />
-                 <p className="about-me"> É um prazer te-lô aqui!  Eu sou o Caio, Front-end Developer. Eu moro em Guarulhos-São Paulo, estou em busca da minha primeira oportunidade para atuar na area. Atualmente sou estudante de React.Js, Typescript e nest.js . Gosto muito do que faço. É um busco crescer cada mais como pessoa e como profissional escolhi esta area pois foi onde me encontrei, e por influencia do meu pai que atua na area recebi uma direção para seguir e eu amei isso. </p>
+                    <HomePage />
                     <MenuBar />
                     <br></br>
             </div>
         </div>
-        <Back />
+        
         </>
         )
 }
